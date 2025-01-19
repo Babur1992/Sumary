@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0 15px;
+}
+.menu-list {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-item {
+  border-radius: 100px;
+
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  background-color: #fff;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-link {
+  padding: 10px 0;
+  color: black;
+  font-family: "Bold", sans-serif;
+
+  font-weight: 700;
+}
+
+.menu-item:hover {
+
+  background-color: rgba(84, 68, 92, 1);
+  background-image: linear-gradient(
+    20deg,
+    rgba(84, 68, 92, 1) 0%,
+    rgba(51, 80, 167, 1) 100%
+  );
+}
